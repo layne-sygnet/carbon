@@ -2116,6 +2116,9 @@ msgstr ""
 msgid "Cash Flow"
 msgstr ""
 
+msgid "Cash Flow Activity"
+msgstr ""
+
 msgid "Categories that classify how stock is stored"
 msgstr "Categorías que clasifican cómo se almacena el stock"
 
@@ -3574,6 +3577,9 @@ msgstr "Balance decreciente"
 
 msgid "Default"
 msgstr "Predeterminado"
+
+msgid "Default (from account type)"
+msgstr ""
 
 msgid "Default account for posting sales revenue from invoices"
 msgstr "Cuenta predeterminada para registrar ingresos por ventas de facturas"
@@ -6177,6 +6183,9 @@ msgstr "Cómo se calculó el precio resuelto."
 msgid "How the sample size is decided — Inspect All, Inspect First N, Percentage of Lot, or AQL (Z1.4 / ISO 2859-1). Each mode reveals its own parameter fields below."
 msgstr "Cómo se decide el tamaño de la muestra — Inspeccionar Todo, Inspeccionar los Primeros N, Porcentaje del Lote o AQL (Z1.4 / ISO 2859-1). Cada modo revela sus propios campos de parámetros a continuación."
 
+msgid "How this account's period change is classified on the statement of cash flows. Default derives from the account type."
+msgstr ""
+
 msgid "How this gauge is used — Standard (regular checks), Master (calibrates other gauges), or Reference (audit-only)."
 msgstr "Cómo se usa este calibre — Estándar (controles regulares), Maestro (calibra otros calibres) o Referencia (solo para auditoría)."
 
@@ -6371,6 +6380,9 @@ msgstr "Ingreso / Balance (heredado)"
 
 msgid "Income Statement"
 msgstr "Estado de Resultados"
+
+msgid "Income statement activity for the current fiscal year (computed, not posted)"
+msgstr ""
 
 msgid "Income/Balance"
 msgstr "Ingresos/Saldo"
@@ -9334,6 +9346,9 @@ msgstr "Publicado"
 
 msgid "Posted At"
 msgstr "Publicado en"
+
+msgid "Posted balance plus prior fiscal years' net income (computed, not posted)"
+msgstr ""
 
 msgid "Posted By"
 msgstr "Publicado por"

@@ -2116,6 +2116,9 @@ msgstr ""
 msgid "Cash Flow"
 msgstr ""
 
+msgid "Cash Flow Activity"
+msgstr ""
+
 msgid "Categories that classify how stock is stored"
 msgstr "分类库存存储方式"
 
@@ -3574,6 +3577,9 @@ msgstr "递减余额"
 
 msgid "Default"
 msgstr "默认"
+
+msgid "Default (from account type)"
+msgstr ""
 
 msgid "Default account for posting sales revenue from invoices"
 msgstr "用于记录发票销售收入的默认账户"
@@ -6177,6 +6183,9 @@ msgstr "已解决价格的计算方式。"
 msgid "How the sample size is decided — Inspect All, Inspect First N, Percentage of Lot, or AQL (Z1.4 / ISO 2859-1). Each mode reveals its own parameter fields below."
 msgstr "样本大小如何确定——检查全部、检查前N个、批次百分比或AQL（Z1.4 / ISO 2859-1）。每种模式在下面显示自己的参数字段。"
 
+msgid "How this account's period change is classified on the statement of cash flows. Default derives from the account type."
+msgstr ""
+
 msgid "How this gauge is used — Standard (regular checks), Master (calibrates other gauges), or Reference (audit-only)."
 msgstr "此测量仪如何使用——标准（定期检查）、主控（校准其他测量仪）或参考（仅审计）。"
 
@@ -6371,6 +6380,9 @@ msgstr "收入/余额（已继承）"
 
 msgid "Income Statement"
 msgstr "利润表"
+
+msgid "Income statement activity for the current fiscal year (computed, not posted)"
+msgstr ""
 
 msgid "Income/Balance"
 msgstr "收入/余额"
@@ -9334,6 +9346,9 @@ msgstr "已发布"
 
 msgid "Posted At"
 msgstr "发布于"
+
+msgid "Posted balance plus prior fiscal years' net income (computed, not posted)"
+msgstr ""
 
 msgid "Posted By"
 msgstr "发布者"
