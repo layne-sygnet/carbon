@@ -3990,6 +3990,9 @@ msgstr "Удалить тип"
 msgid "Delete Unit of Measure"
 msgstr "Удалить единицу измерения"
 
+msgid "Delete view"
+msgstr ""
+
 msgid "Delete View"
 msgstr "Удалить представление"
 
@@ -8418,6 +8421,9 @@ msgstr "Нет назначенных правил"
 msgid "No samples inspected yet."
 msgstr "Пока нет проверенных образцов."
 
+msgid "No saved views"
+msgstr ""
+
 msgid "No single, trusted number for inventory or job status"
 msgstr "Нет единого надежного показателя для инвентаря или статуса работы"
 
@@ -10803,8 +10809,14 @@ msgstr "Сохранить применения"
 msgid "Save contacts"
 msgstr "Сохранить контакты"
 
+msgid "Save current view…"
+msgstr ""
+
 msgid "Save Method"
 msgstr "Сохранить метод"
+
+msgid "Save view"
+msgstr ""
 
 msgid "Save View"
 msgstr "Сохранить представление"
@@ -13915,6 +13927,9 @@ msgstr "Просмотр Memo"
 msgid "View missing values"
 msgstr "Просмотреть отсутствующие значения"
 
+msgid "View name"
+msgstr ""
+
 msgid "View notes"
 msgstr "Просмотр заметок"
 
@@ -14004,6 +14019,9 @@ msgstr "Просмотр графика отслеживания"
 
 msgid "View Transfer"
 msgstr "Просмотр передачи"
+
+msgid "Views"
+msgstr ""
 
 msgid "Visibilities"
 msgstr "Видимость"

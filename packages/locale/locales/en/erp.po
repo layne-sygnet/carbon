@@ -3990,6 +3990,9 @@ msgstr "Delete Type"
 msgid "Delete Unit of Measure"
 msgstr "Delete Unit of Measure"
 
+msgid "Delete view"
+msgstr "Delete view"
+
 msgid "Delete View"
 msgstr "Delete View"
 
@@ -8418,6 +8421,9 @@ msgstr "No rules assigned"
 msgid "No samples inspected yet."
 msgstr "No samples inspected yet."
 
+msgid "No saved views"
+msgstr "No saved views"
+
 msgid "No single, trusted number for inventory or job status"
 msgstr "No single, trusted number for inventory or job status"
 
@@ -10803,8 +10809,14 @@ msgstr "Save applications"
 msgid "Save contacts"
 msgstr "Save contacts"
 
+msgid "Save current view…"
+msgstr "Save current view…"
+
 msgid "Save Method"
 msgstr "Save Method"
+
+msgid "Save view"
+msgstr "Save view"
 
 msgid "Save View"
 msgstr "Save View"
@@ -13915,6 +13927,9 @@ msgstr "View Memo"
 msgid "View missing values"
 msgstr "View missing values"
 
+msgid "View name"
+msgstr "View name"
+
 msgid "View notes"
 msgstr "View notes"
 
@@ -14004,6 +14019,9 @@ msgstr "View Traceability Graph"
 
 msgid "View Transfer"
 msgstr "View Transfer"
+
+msgid "Views"
+msgstr "Views"
 
 msgid "Visibilities"
 msgstr "Visibilities"

@@ -1,4 +1,5 @@
 import { Footer } from "./components";
+import FinancialStatementsPDF from "./FinancialStatementsPDF";
 import { ensureFont, getSafeFontFamily, registerDocumentFonts } from "./fonts";
 import IssuePDF from "./IssuePDF";
 import { SAMPLE_ISSUE } from "./issue.samples";
@@ -20,6 +21,7 @@ import { SAMPLE_TRACKING_LABEL } from "./trackingLabel.samples";
 export {
   DOCUMENT_PDFS,
   ensureFont,
+  FinancialStatementsPDF,
   Footer,
   getSafeFontFamily,
   IssuePDF,
