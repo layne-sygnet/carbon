@@ -362,6 +362,7 @@ export const path = {
     calibrations: `${x}/quality/calibrations`,
     cancelPurchasingRfq: (id: string) =>
       generatePath(`${x}/purchasing-rfq/${id}/cancel`),
+    cashFlowStatement: `${x}/accounting/cash-flow`,
     changeOrder: (id: string) => generatePath(`${x}/items/change-order/${id}`),
     changeOrderAction: (id: string) =>
       generatePath(`${x}/items/change-order/${id}/action`),
@@ -874,6 +875,12 @@ export const path = {
     failureModes: `${x}/resources/failure-modes`,
     file: {
       cadModel: (id: string) => generatePath(`${file}/model/${id}`),
+      financialStatementsPdf: (search?: string) =>
+        generatePath(
+          `${file}/accounting/financial-statements.pdf${
+            search ? `?${search}` : ""
+          }`
+        ),
       jobTraveler: (id: string) => generatePath(`${file}/traveler/${id}.pdf`),
       jobTravelerByJobId: (jobId: string) =>
         generatePath(`${file}/job/${jobId}/traveler.pdf`),
@@ -1099,6 +1106,7 @@ export const path = {
     gauges: `${x}/quality/gauges`,
     gaugeType: (id: string) => generatePath(`${x}/quality/gauge-types/${id}`),
     gaugeTypes: `${x}/quality/gauge-types`,
+    generalLedger: `${x}/accounting/general-ledger`,
     generateAssemblyInstructionSteps: (id: string) =>
       generatePath(`${x}/assembly/${id}/steps/generate`),
     getStarted: `${x}/get-started`,
@@ -1806,6 +1814,7 @@ export const path = {
     refreshSession: "/refresh-session",
     repeatDepreciationRun: (id: string) =>
       generatePath(`${x}/depreciation-run/${id}/repeat`),
+    reportViews: `${x}/accounting/report-views`,
     requiredAction: (id: string) =>
       generatePath(`${x}/quality/required-actions/${id}`),
     requiredActions: `${x}/quality/required-actions`,

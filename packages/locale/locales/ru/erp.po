@@ -48,6 +48,10 @@ msgstr "(исключено для этого клиента)"
 msgid "{0, plural, one {This part is on 1 open change order} other {This part is on # open change orders}}"
 msgstr "{0, plural, one {Эта деталь находится в 1 открытом приказе об изменении} other {Эта деталь находится в # открытых приказах об изменении}}"
 
+#. placeholder {0}: statement.unclassified.length
+msgid "{0} accounts have no cash flow activity — set an account type or override"
+msgstr ""
+
 #. placeholder {0}: ar.count
 msgid "{0} customers with a balance"
 msgstr "{0} клиентов с остатком"
@@ -797,6 +801,9 @@ msgstr "Все"
 
 msgid "All {total} phases are done. Nice work — your team is up and running."
 msgstr "Все {total} этапов завершены. Отличная работа — ваша команда готова к работе."
+
+msgid "All accounts"
+msgstr ""
 
 msgid "All actions selected"
 msgstr "Все действия выбраны"
@@ -2100,6 +2107,15 @@ msgstr "Счет перевозчика"
 msgid "Cash & Banking"
 msgstr "Наличные и Банковские операции"
 
+msgid "Cash at beginning of period"
+msgstr ""
+
+msgid "Cash at end of period"
+msgstr ""
+
+msgid "Cash Flow"
+msgstr ""
+
 msgid "Categories that classify how stock is stored"
 msgstr "Категории, которые классифицируют способ хранения запасов"
 
@@ -2286,6 +2302,12 @@ msgstr "Дата закрытия"
 
 msgid "Closing"
 msgstr "Закрытие"
+
+msgid "Closing Credit"
+msgstr ""
+
+msgid "Closing Debit"
+msgstr ""
 
 msgid "Closure blocked"
 msgstr "Закрытие заблокировано"
@@ -3171,10 +3193,6 @@ msgstr "Создание детали..."
 msgid "Credit"
 msgstr "Кредит"
 
-#. placeholder {0}: parentCurrency ?? "Translated"
-msgid "Credit ({0})"
-msgstr "Кредит ({0})"
-
 msgid "Credit / Debit Memos"
 msgstr "Кредит-ноты / Дебет-ноты"
 
@@ -3535,10 +3553,6 @@ msgstr "Тип срока"
 
 msgid "Debit"
 msgstr "Дебет"
-
-#. placeholder {0}: parentCurrency ?? "Translated"
-msgid "Debit ({0})"
-msgstr "Дебет ({0})"
 
 msgid "Debit Account"
 msgstr "Счет дебета"
@@ -4678,6 +4692,9 @@ msgstr "Редактировать Webhook"
 msgid "Edit Work Center"
 msgstr "Редактировать рабочий центр"
 
+msgid "Effect of exchange rate changes on cash"
+msgstr ""
+
 msgid "Eliminated"
 msgstr "Исключено"
 
@@ -5550,6 +5567,9 @@ msgstr "Фильтр"
 msgid "Finalize"
 msgstr "Завершить"
 
+msgid "Financing Activities"
+msgstr ""
+
 msgid "finish"
 msgstr "Готовая продукция"
 
@@ -5909,6 +5929,9 @@ msgstr "Счет GL контра-активов, который кредитуе
 
 msgid "GL contra-asset account that accumulates depreciation booked against fixed assets."
 msgstr "Счет GL контра-активов, который накапливает амортизацию, записанную против основных средств."
+
+msgid "GL Detail"
+msgstr ""
 
 msgid "GL equity account (CTA reserve) that holds unrealized FX differences from re-translating foreign-currency balances at period-end; separate from realized FX gain/loss in P&L."
 msgstr "Счет GL капитала (резерв CTA), который держит нереализованные разницы по валютам в результате пересчета остатков в иностранной валюте на конец периода; отдельно от реализованной валютной прибыли/убытка в П&У."
@@ -6328,6 +6351,9 @@ msgstr "Входящие проверки: требовать другого и�
 msgid "Inbox"
 msgstr "Входящие"
 
+msgid "Include drafts"
+msgstr ""
+
 msgid "Include extra parts in shipment"
 msgstr "Включить дополнительные детали в отправку"
 
@@ -6543,6 +6569,9 @@ msgstr "Единица измерения запасов"
 
 msgid "Inventory Valuation"
 msgstr "Оценка товарно-материального запаса"
+
+msgid "Investing Activities"
+msgstr ""
 
 msgid "Invite"
 msgstr "Пригласить"
@@ -7762,8 +7791,26 @@ msgstr "Чистая балансовая стоимость"
 msgid "Net Book Value"
 msgstr "Чистая балансовая стоимость"
 
+msgid "Net cash from financing activities"
+msgstr ""
+
+msgid "Net cash from investing activities"
+msgstr ""
+
+msgid "Net cash from operating activities"
+msgstr ""
+
+msgid "Net cash from unclassified activities"
+msgstr ""
+
 msgid "Net Change"
 msgstr "Чистое изменение"
+
+msgid "Net change in cash"
+msgstr ""
+
+msgid "Net Income"
+msgstr ""
 
 msgid "Never"
 msgstr "Никогда"
@@ -8665,6 +8712,15 @@ msgstr "Открытие"
 msgid "Opening balance of depreciation already booked before this asset was added to Carbon (use 0 for new acquisitions)."
 msgstr "Начальный баланс амортизации, уже учтенный до добавления этого актива в Carbon (используйте 0 для новых приобретений)."
 
+msgid "Opening Credit"
+msgstr ""
+
+msgid "Opening Debit"
+msgstr ""
+
+msgid "Operating Activities"
+msgstr ""
+
 msgid "Operating Expenses"
 msgstr "Операционные расходы"
 
@@ -9053,6 +9109,12 @@ msgstr "Идеально для недорогой оценки"
 
 msgid "Period"
 msgstr "Период"
+
+msgid "Period Credits"
+msgstr ""
+
+msgid "Period Debits"
+msgstr ""
 
 msgid "Period End"
 msgstr "Конец периода"
@@ -10559,6 +10621,9 @@ msgstr "Запустить контрольный список приемки д
 msgid "Run the floor on tablets: clock labor, report progress, see instructions"
 msgstr "Управляйте цехом с планшетов: учитывайте рабочее время, отслеживайте прогресс, просматривайте инструкции"
 
+msgid "Running Balance"
+msgstr ""
+
 msgid "Running inventory after each week's supply and demand — the line."
 msgstr "Инвентарь, обновляемый после еженедельного спроса и предложения — строка."
 
@@ -11617,6 +11682,9 @@ msgstr "Начал"
 
 msgid "State / Province"
 msgstr "Штат / Провинция"
+
+msgid "Statement of Cash Flows"
+msgstr ""
 
 #. placeholder {0}: lotEntities.length
 #. placeholder {1}: Math.max(0, lotEntities.length - inspected)
@@ -13432,6 +13500,9 @@ msgstr "Неопубликованные документы"
 
 msgid "Unreceived POs"
 msgstr "Неполученные ПО"
+
+msgid "Unreconciled difference"
+msgstr ""
 
 msgid "Unsaved changes"
 msgstr "Несохранённые изменения"

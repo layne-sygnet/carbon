@@ -48,6 +48,10 @@ msgstr "(wykluczone dla tego klienta)"
 msgid "{0, plural, one {This part is on 1 open change order} other {This part is on # open change orders}}"
 msgstr "{0, plural, one {Ta część znajduje się na 1 otwartym zleceniu zmian} other {Ta część znajduje się na # otwartych zleceniach zmian}}"
 
+#. placeholder {0}: statement.unclassified.length
+msgid "{0} accounts have no cash flow activity — set an account type or override"
+msgstr ""
+
 #. placeholder {0}: ar.count
 msgid "{0} customers with a balance"
 msgstr "{0} klientów z saldem"
@@ -797,6 +801,9 @@ msgstr "Wszystko"
 
 msgid "All {total} phases are done. Nice work — your team is up and running."
 msgstr "Wszystkie {total} fazy są gotowe. Świetna robota — Twój zespół jest już w pełni operacyjny."
+
+msgid "All accounts"
+msgstr ""
 
 msgid "All actions selected"
 msgstr "Wszystkie akcje zaznaczone"
@@ -2100,6 +2107,15 @@ msgstr "Konto przewoźnika"
 msgid "Cash & Banking"
 msgstr "Gotówka i Bankowość"
 
+msgid "Cash at beginning of period"
+msgstr ""
+
+msgid "Cash at end of period"
+msgstr ""
+
+msgid "Cash Flow"
+msgstr ""
+
 msgid "Categories that classify how stock is stored"
 msgstr "Kategorie klasyfikujące sposób przechowywania zapasów"
 
@@ -2286,6 +2302,12 @@ msgstr "Data zamknięcia"
 
 msgid "Closing"
 msgstr "Zamknięcie"
+
+msgid "Closing Credit"
+msgstr ""
+
+msgid "Closing Debit"
+msgstr ""
 
 msgid "Closure blocked"
 msgstr "Zamknięcie zablokowane"
@@ -3171,10 +3193,6 @@ msgstr "Tworzenie części..."
 msgid "Credit"
 msgstr "Kredyt"
 
-#. placeholder {0}: parentCurrency ?? "Translated"
-msgid "Credit ({0})"
-msgstr "Kredyt ({0})"
-
 msgid "Credit / Debit Memos"
 msgstr "Noty kredytowe / debetowe"
 
@@ -3535,10 +3553,6 @@ msgstr "Typ terminu"
 
 msgid "Debit"
 msgstr "Obciążenie"
-
-#. placeholder {0}: parentCurrency ?? "Translated"
-msgid "Debit ({0})"
-msgstr "Debet ({0})"
 
 msgid "Debit Account"
 msgstr "Konto Obciążeniowe"
@@ -4678,6 +4692,9 @@ msgstr "Edytuj Webhook"
 msgid "Edit Work Center"
 msgstr "Edytuj Centrum Pracy"
 
+msgid "Effect of exchange rate changes on cash"
+msgstr ""
+
 msgid "Eliminated"
 msgstr "Wyeliminowane"
 
@@ -5550,6 +5567,9 @@ msgstr "Filtr"
 msgid "Finalize"
 msgstr "Sfinalizuj"
 
+msgid "Financing Activities"
+msgstr ""
+
 msgid "finish"
 msgstr "Wyroby gotowe"
 
@@ -5909,6 +5929,9 @@ msgstr "Konto GL korygujące aktywa, uznawane w miarę księgowania amortyzacji 
 
 msgid "GL contra-asset account that accumulates depreciation booked against fixed assets."
 msgstr "Konto GL aktywów przeciwnych, które gromadzi amortyzację zaksięgowaną wobec środków trwałych."
+
+msgid "GL Detail"
+msgstr ""
 
 msgid "GL equity account (CTA reserve) that holds unrealized FX differences from re-translating foreign-currency balances at period-end; separate from realized FX gain/loss in P&L."
 msgstr "Konto GL kapitału (rezerwa CTA), które przechowuje niezrealizowane różnice FX wynikające z przetłumaczenia sald w obcej walucie na koniec okresu; oddzielnie od zrealizowanego zysku/straty FX w P&L."
@@ -6328,6 +6351,9 @@ msgstr "Inspekcje przychodzące: Wymagaj innego inspektora"
 msgid "Inbox"
 msgstr "Skrzynka odbiorcza"
 
+msgid "Include drafts"
+msgstr ""
+
 msgid "Include extra parts in shipment"
 msgstr "Dołącz dodatkowe części do wysyłki"
 
@@ -6543,6 +6569,9 @@ msgstr "Jednostka miary zapasów"
 
 msgid "Inventory Valuation"
 msgstr "Wycena zapasów"
+
+msgid "Investing Activities"
+msgstr ""
 
 msgid "Invite"
 msgstr "Zaproś"
@@ -7762,8 +7791,26 @@ msgstr "Wartość Netto w Księdze"
 msgid "Net Book Value"
 msgstr "Wartość netto w księgach"
 
+msgid "Net cash from financing activities"
+msgstr ""
+
+msgid "Net cash from investing activities"
+msgstr ""
+
+msgid "Net cash from operating activities"
+msgstr ""
+
+msgid "Net cash from unclassified activities"
+msgstr ""
+
 msgid "Net Change"
 msgstr "Zmiana netto"
+
+msgid "Net change in cash"
+msgstr ""
+
+msgid "Net Income"
+msgstr ""
 
 msgid "Never"
 msgstr "Nigdy"
@@ -8665,6 +8712,15 @@ msgstr "Otwarcie"
 msgid "Opening balance of depreciation already booked before this asset was added to Carbon (use 0 for new acquisitions)."
 msgstr "Saldo otwarcia amortyzacji już zaksięgowanej przed dodaniem tego zasobu do Carbon (użyj 0 dla nowych przejęć)."
 
+msgid "Opening Credit"
+msgstr ""
+
+msgid "Opening Debit"
+msgstr ""
+
+msgid "Operating Activities"
+msgstr ""
+
 msgid "Operating Expenses"
 msgstr "Koszty Operacyjne"
 
@@ -9053,6 +9109,12 @@ msgstr "Idealne do niedrogiej oceny"
 
 msgid "Period"
 msgstr "Okres"
+
+msgid "Period Credits"
+msgstr ""
+
+msgid "Period Debits"
+msgstr ""
 
 msgid "Period End"
 msgstr "Koniec okresu"
@@ -10559,6 +10621,9 @@ msgstr "Uruchom listę kontrolną akceptacji do pozytywnego wyniku"
 msgid "Run the floor on tablets: clock labor, report progress, see instructions"
 msgstr "Zarządzaj halą produkcyjną na tabletach: rejestruj pracę, raportuj postęp, przeglądaj instrukcje"
 
+msgid "Running Balance"
+msgstr ""
+
 msgid "Running inventory after each week's supply and demand — the line."
 msgstr "Zapasy uruchomiane po tygodniowej podaży i popycie — linia."
 
@@ -11617,6 +11682,9 @@ msgstr "Rozpoczęto"
 
 msgid "State / Province"
 msgstr "Stan / Prowincja"
+
+msgid "Statement of Cash Flows"
+msgstr ""
 
 #. placeholder {0}: lotEntities.length
 #. placeholder {1}: Math.max(0, lotEntities.length - inspected)
@@ -13432,6 +13500,9 @@ msgstr "Nieopublikowane dokumenty"
 
 msgid "Unreceived POs"
 msgstr "Nieprzyjęte zamówienia"
+
+msgid "Unreconciled difference"
+msgstr ""
 
 msgid "Unsaved changes"
 msgstr "Niezapisane zmiany"
