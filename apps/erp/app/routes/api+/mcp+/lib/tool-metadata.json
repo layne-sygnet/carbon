@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-23T20:18:33.549Z",
-  "totalTools": 1377,
+  "generated": "2026-07-24T11:46:55.771Z",
+  "totalTools": 1386,
   "modules": 15,
   "tools": [
     {
@@ -490,6 +490,365 @@
         "required": [
           "startDate",
           "endDate"
+        ]
+      }
+    },
+    {
+      "name": "accounting_getCashFlowStatement",
+      "module": "accounting",
+      "classification": "READ",
+      "description": "get cash flow statement",
+      "paramCount": 2,
+      "serviceParams": [
+        "client",
+        "companyGroupId",
+        "companyId",
+        "args"
+      ],
+      "injectAuth": [
+        "companyId"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "startDate": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "endDate": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "startDate",
+          "endDate"
+        ]
+      }
+    },
+    {
+      "name": "accounting_getCurrencyRatesForWindow",
+      "module": "accounting",
+      "classification": "READ",
+      "description": "get currency rates for window",
+      "paramCount": 2,
+      "serviceParams": [
+        "client",
+        "companyGroupId",
+        "currencyCode",
+        "args"
+      ],
+      "injectAuth": [
+        "companyId"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "currencyCode": {
+            "type": "string"
+          },
+          "args": {
+            "type": "object",
+            "properties": {
+              "startDate": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "endDate": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "startDate",
+              "endDate"
+            ]
+          }
+        },
+        "required": [
+          "currencyCode",
+          "args"
+        ]
+      }
+    },
+    {
+      "name": "accounting_getConsolidatedCashFlowStatement",
+      "module": "accounting",
+      "classification": "READ",
+      "description": "get consolidated cash flow statement",
+      "paramCount": 4,
+      "serviceParams": [
+        "client",
+        "companyGroupId",
+        "companyIds",
+        "parentCurrency",
+        "args",
+        "companyCurrencies"
+      ],
+      "injectAuth": [
+        "companyId"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "companyIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "parentCurrency": {
+            "type": "string"
+          },
+          "args": {
+            "type": "object",
+            "properties": {
+              "startDate": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "endDate": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "startDate",
+              "endDate"
+            ]
+          },
+          "companyCurrencies": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "baseCurrencyCode": {
+                "type": "array",
+                "items": {}
+              }
+            },
+            "required": [
+              "id",
+              "baseCurrencyCode"
+            ]
+          }
+        },
+        "required": [
+          "companyIds",
+          "parentCurrency",
+          "args"
+        ]
+      }
+    },
+    {
+      "name": "accounting_getGeneralLedgerLines",
+      "module": "accounting",
+      "classification": "READ",
+      "description": "get general ledger lines",
+      "paramCount": 6,
+      "serviceParams": [
+        "client",
+        "companyId",
+        "args"
+      ],
+      "injectAuth": [
+        "companyId"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "args": {
+            "type": "object",
+            "properties": {
+              "limit": {
+                "type": "integer",
+                "default": 100
+              },
+              "offset": {
+                "type": "integer",
+                "default": 0
+              },
+              "accountId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "startDate": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "endDate": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "status": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "accounting_getGeneralLedgerOpeningBalance",
+      "module": "accounting",
+      "classification": "READ",
+      "description": "get general ledger opening balance",
+      "paramCount": 2,
+      "serviceParams": [
+        "client",
+        "companyGroupId",
+        "companyId",
+        "accountId",
+        "beforeDate"
+      ],
+      "injectAuth": [
+        "companyId"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "accountId": {
+            "type": "string"
+          },
+          "beforeDate": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "accountId",
+          "beforeDate"
+        ]
+      }
+    },
+    {
+      "name": "accounting_getReportingPeriods",
+      "module": "accounting",
+      "classification": "READ",
+      "description": "get reporting periods",
+      "paramCount": 0,
+      "serviceParams": [
+        "client",
+        "companyId"
+      ],
+      "injectAuth": [
+        "companyId"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {}
+      }
+    },
+    {
+      "name": "accounting_getReportViews",
+      "module": "accounting",
+      "classification": "READ",
+      "description": "get report views",
+      "paramCount": 1,
+      "serviceParams": [
+        "client",
+        "companyId",
+        "userId",
+        "report"
+      ],
+      "injectAuth": [
+        "companyId"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "report": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "report"
+        ]
+      }
+    },
+    {
+      "name": "accounting_upsertReportView",
+      "module": "accounting",
+      "classification": "WRITE",
+      "description": "upsert report view",
+      "paramCount": 4,
+      "serviceParams": [
+        "client",
+        "view"
+      ],
+      "injectAuth": [
+        "companyId",
+        "createdBy",
+        "updatedBy"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "report": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "params": {}
+        },
+        "required": [
+          "report",
+          "name",
+          "params"
+        ]
+      }
+    },
+    {
+      "name": "accounting_deleteReportView",
+      "module": "accounting",
+      "classification": "DESTRUCTIVE",
+      "description": "delete report view",
+      "paramCount": 1,
+      "serviceParams": [
+        "client",
+        "id",
+        "userId"
+      ],
+      "injectAuth": [
+        "companyId"
+      ],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id"
         ]
       }
     },
